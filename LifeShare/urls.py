@@ -18,10 +18,10 @@ from django.urls import path
 from register import views as register_view
 from django.contrib.auth import urls as auth_urls
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin', admin.site.urls),
     # path('',register_view.show),
     # path('accounts/', in)
     path('', register_view.login),
-    path('index/',register_view.index),
+    path('index',register_view.index),
     path('register',register_view.register)
 ]

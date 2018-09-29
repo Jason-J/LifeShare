@@ -5,6 +5,10 @@
     <title>注册</title>
 </head>
 <body>
-
+    <form action="register" method="post" >
+        <p>登录名：{{ registForm.username }}</p>
+        <p>密码：{{ registForm.password }}</p>
+        <input type="submit" value="注册"/>
+    </form>
 </body>
 </html>
