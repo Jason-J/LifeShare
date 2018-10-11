@@ -23,5 +23,6 @@ urlpatterns = [
     # path('accounts/', in)
     path('', register_view.login),
     path('index',register_view.index),
-    path('register',register_view.register)
+    path('register',register_view.register),
+    path('login', register_view.login),
 ]
